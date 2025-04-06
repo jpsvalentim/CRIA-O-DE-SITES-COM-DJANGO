@@ -62,9 +62,9 @@ Django é o framework web em si — o "motor" do seu site.
 ✅ Ele é quem roda o projeto, cria o site e interage com o navegador.
 
 ## 🧠 Analogia simples:
-# Papel	Quem é
-🧰 Ferramenta que instala e organiza o ambiente	Anaconda
-🏗️ Framework que constrói o site/app	Django
+# Papel	                                                       Quem?
+🧰 Ferramenta que instala e organiza                   o ambiente	Anaconda
+🏗️ Framework que constrói o site/app	                      Django
 
 
 
