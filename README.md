@@ -49,3 +49,52 @@ pip install django
 
 >>>bash
 django-admin --version
+
+---
+
+## 💻 3. Escolha e Instalação de um Editor de Código
+
+Para desenvolver com mais eficiência, é altamente recomendado o uso de um editor de código moderno com suporte a Python e ao framework Django. As duas opções mais populares são:
+
+### 🔷 PyCharm
+
+**Por que usar o PyCharm?**
+
+O [PyCharm](https://www.jetbrains.com/pycharm/) é um IDE completo para desenvolvimento em Python, com suporte nativo a Django. Ele oferece:
+
+- Autocompletar avançado
+- Debugger visual
+- Gerenciador de pacotes integrado
+- Suporte completo a templates, models, views e rotas do Django
+
+**Instalação:**
+
+1. Acesse: [https://www.jetbrains.com/pycharm/download](https://www.jetbrains.com/pycharm/download)
+2. Escolha a versão **Community** (gratuita) ou **Professional** (paga, com mais recursos para Django).
+3. Siga o assistente de instalação conforme seu sistema operacional.
+
+---
+
+### 🟦 Visual Studio Code (VS Code)
+
+**Por que usar o VS Code?**
+
+O [VS Code](https://code.visualstudio.com/) é um editor de código leve, altamente customizável e com uma grande variedade de extensões. Para projetos Django, é uma ótima opção por ser rápido e prático, além de consumir menos recursos que um IDE completo como o PyCharm.
+
+**Instalação:**
+
+1. Acesse: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. Baixe e instale a versão para seu sistema.
+3. Após instalado, adicione as extensões recomendadas:
+
+    - **Python** (Microsoft)
+    - **Django** (BAT)
+    - **Pylance** (para sugestões e análise de código)
+    - **Prettier** ou **Black** (para formatação de código)
+
+---
+
+## ✅ **Recomendações:**
+> - Se você está começando e quer algo mais completo, vá de **PyCharm**.
+> - Se prefere leveza e customização, **VS Code** é uma excelente escolha.
+
