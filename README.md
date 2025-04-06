@@ -94,7 +94,65 @@ O [VS Code](https://code.visualstudio.com/) é um editor de código leve, altame
 
 ---
 
-## ✅ **Recomendações:**
+## ✅Recomendações:
 > - Se você está começando e quer algo mais completo, vá de **PyCharm**.
 > - Se prefere leveza e customização, **VS Code** é uma excelente escolha.
 
+
+## 📁 Estrutura do seu projeto:
+CRIA-O-DE-SITES-COM-DJANGO/
+    📁 meusite/
+        📁 meusite/
+            📄 __init__.py
+            📄 settings.py
+            📄 urls.py
+            📄 wsgi.py
+            📄 asgi.py
+        📄 manage.py
+        📄 db.sqlite3
+    📄 README.md
+
+
+## 🧠 Explicação de cada um:
+🔹 manage.py
+Arquivo de linha de comando do Django. Você usa ele pra rodar o servidor, criar apps, aplicar migrações etc.
+
+Ex: python manage.py runserver, python manage.py startapp nome.
+
+🔹 db.sqlite3
+Banco de dados SQLite padrão do Django. Criado automaticamente quando você roda runserver pela primeira vez ou faz migrações.
+
+## 📁 meusite (a pasta interna)
+Esse é o módulo principal do seu projeto. O nome pode confundir porque se repete, mas é normal. Dentro dela estão arquivos que controlam a configuração geral do Django:
+
+## 🔸 __init__.py
+Diz ao Python que essa pasta é um módulo. Sem isso, o Django não consegue importar corretamente.
+
+## 🔸 settings.py
+Onde ficam as configurações do projeto:
+
+Idioma, fuso horário
+
+Quais apps estão instalados
+
+Banco de dados
+
+Pastas de arquivos estáticos e templates
+
+## 🔸 urls.py
+Responsável por mapear as rotas (URLs) do seu site.
+
+Exemplo: /admin/, /meusite/, etc.
+
+## 🔸 wsgi.py
+Usado para deploy (colocar o site no ar com servidores como Gunicorn/Apache).
+
+Aponta para a aplicação Django.
+
+## 🔸 asgi.py
+Como o wsgi.py, mas para servidores assíncronos (Ex: WebSockets, Channels).
+
+Importante para aplicações em tempo real.
+
+## 🔸 README.md
+Arquivo comum em projetos para explicar o que é o projeto, como rodar, requisitos, etc.
