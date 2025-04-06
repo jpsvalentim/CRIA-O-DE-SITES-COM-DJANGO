@@ -1,7 +1,6 @@
-from django.urls import paths
+from django.urls import path
 
 from . import views
-from ..meusite.urls import urlpatterns
 
 urlpatterns = [
 
